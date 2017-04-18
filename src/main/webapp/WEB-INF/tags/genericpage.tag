@@ -138,10 +138,11 @@
 			</div>
 
 			<!-- SIDE BAR -->
-			<div class="col-md-4" style="">
-				${sidebar.content} 
-				<%-- <div class="clearfix"></div> <a href="/edit-${sidebar.page_id }"><h4 class="pull-right">Edit</h4></a> --%>
+			<div Class="col-md-4" style="">
+											${sidebar.content }
+						<%--<div class="clearfix" --%><a href="/edit-${sidebar.page_id }"><h4 class="pull-right">Edit</h4></a> --%>
 			</div>
+						
 
 			<!-- END BODY -->
 

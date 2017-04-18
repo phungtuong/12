@@ -48,8 +48,8 @@ public class FileUploadController {
     public String index(Model model){
     	Document index= documentService.findById(19);
     	Document sidebar= documentService.findById(21);
-    	model.addAttribute("sidebar",sidebar);
     	model.addAttribute("index",index);
+    	model.addAttribute("sidebar",sidebar);
 		return "tags/index";    	
     }
   
